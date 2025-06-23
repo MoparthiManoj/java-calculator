@@ -1,42 +1,53 @@
-# Java Console-Based Calculator
+# Java Console Calculator
 
-This is a basic console-based calculator application developed using Java as part of my internship at **Elevate Labs**.
+This is a simple console-based calculator built using Java as part of my internship task at **Elevate Labs**. The application performs basic arithmetic operations and runs in a loop until the user chooses to quit.
 
-## 📄 File Name
+---
 
-`task1.java`
+## 🎯 Objective
 
-## 📌 Features
+Build a basic calculator using Java console I/O.
 
-- Takes two integer inputs from the user
-- Allows user to choose from:
-  - Addition (+)
-  - Subtraction (-)
-  - Multiplication (*)
-  - Division (/)
-  - Remainder (%)
-- Option to quit the program
-- Loops until the user chooses to quit or enters an invalid option
+---
 
-## 🛠️ How to Run
+## 🧰 Tools Used
 
-1. Make sure Java is installed.
-2. Compile the file:
+- **Java (JDK)**
+- **VS Code** (Visual Studio Code)
+- **Terminal / Command Prompt**
+
+---
+
+## 📁 Deliverables
+
+- Java source file: `task1.java`
+
+---
+
+## 💡 Features
+
+- Accepts two integers from the user
+- Offers options for:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Each operation is implemented using a separate method
+- Uses a `while` loop to continue until the user chooses to quit
+- Input is handled using `Scanner`
+
+---
+
+## 🚀 How to Run in VS Code
+
+1. **Install Java Extension Pack** in VS Code (if not already installed)
+   - Go to Extensions (Ctrl+Shift+X) → Search `Java Extension Pack` → Install
+
+2. **Create a new file** named `task1.java` and paste the code.
+
+3. **Open the terminal** in VS Code:
+   - From the menu: `Terminal` → `New Terminal`
+
+4. **Compile the Java file**:
    ```bash
    javac task1.java
-
-Sample Output:
-
-Enter two Integers:
-10
-5
-Here are your Options:
-Option-1:ADDITION(+)
-Option-2:SUBTRACTION(-)
-Option-3:MULTIPLICATION(*)
-Option-4:DIVISION(/)
-Option-5:REMAINDER(%)
-Option-6:QUIT
-Enter Integer in the range(1-6) for option selection
-1
-Result is:15
